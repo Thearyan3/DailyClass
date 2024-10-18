@@ -1,0 +1,47 @@
+1 - Who created JavaScript?
+--> Brendan Eich when working at NetScape. It was created in 10 days. 
+
+2 -  Why JS was developed?
+--> (i). Earlier, only HTML and CSS were there to build applications, these applications were static.  
+(ii). Static applications are the ones in which you cannot take in any user's input and make some changes in styling or structure of application, so we needed to make the application dynamic.
+(iii). Dynamic applications are the ones in which you can take user's data and save his information. And capturing data is the most important part of the application development.
+
+3 - History of JS
+(i). In 1990s, at the time of internet when Microsoft Internet Explorer and NetScape's Navigator were getting released.
+(ii). One of the NetScape's developer named Brandan Eich developed JS in 10 days.
+(iii). JS used to known as Mocha, then it used to get called as Livescript and then finally JavaScript.
+(iv). Javascript used to get confused with JAVA, but on the other hand they have nothing in common, Javascript is an interpreted language and JAVA is a compiler language.
+(v). Because of all this confusion and to maintain proper standardization in Javascript, Netscape introduced a body called ECMA (European Computer Manufacturers Association).
+
+4 - Why should you learn JS ?
+-->  Because it is the Most In-Demand Programming Language for 2021.
+
+5 - Difference between Compiler and Interpreter 
+(i). Compiler --> a. It takes an entire program at a time. 
+                  b. Compilation is done before execution.
+                  c. Faster because it translates the complete code at one go. 
+                  d. It requires memory because it creates object code. 
+                  e. Display all errors at the last. 
+                  f. C, C++.
+(ii).Interpreter--> a. It takes a single line of a code at a time.
+                   b. Compilation and Execution takes place simultaneously.
+                   c. Slower because it translates each line and then execution happens which    
+                      at last takes more time than compiler.
+                   d. It does not require any memory. 
+                   e. Display errors after each line if exists.
+                   f. Python, PHPD.
+
+6 - What is JavaScript?
+--> Javascript is a scripting and Interpreted Language that enables you to create dynamically updating content.It doesn't need a compiler. It executes instructions directly without compiling.The source code is evaluated just before executing it. It is open-source and cross-platform compatible. It is created by Netscape. It has object-oriented capabilities.
+
+7 - Why do you love JavaScript?
+(i). It is easy to start using.
+(ii). Javascript can be used on any platform.
+(iii). It performs well on every platform.
+(iv). You can build web, IOT, mobile apps using Javascript.
+(v). It can be used on the Frontend, Backend, and also in the databases like MongoDB.
+(vi). It is dynamic in nature ex: objects and arrays can be of mixed types.
+
+8 - Stages of a Code Execution
+Compilation: The stage in which the complete source code will be converted into machine language code. 
+Execution: In this stage the code will be executed means all the functions which are written will be executed.

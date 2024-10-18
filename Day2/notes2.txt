@@ -1,0 +1,39 @@
+9 - JS Engine.
+(i). Now to run JS code, we need JS engine, earlier it was believed that JS code can be run only in browser and only client side applications can be created. 
+(ii). So all the browsers are having their own JS Engines to run JS code.
+(iii). Later Ryan Dahl wrote some C++ and tried to run it using JS Engine, and it worked and we call it Node.JS.
+(iv). So JS can be used for client-side application and server-side application as well, it just requries JS engine to run the code.
+Note* - Angular and view are frameworks of Typescript. While React is framework of both JavaScript and typescript. Not only that but React.JS is a JS library which is used to create Websites and React native is JS framework which is used to create Mobile Applications.
+Some Browser Engines -:
+Google Chrome = V8 Engine
+Mozilla FireFox = Monkey Spider Engine
+Internet Explorer = Chakra
+
+10 - Add JS to HTML Page 
+(i). We can use script tag in <body> tag of HTML file.
+(ii). This script tag should be placed at the end of body tag means after complete HTML code.
+(iii). <script src=./index.js"></script>
+
+11 - JS Code Execution
+--> Below are the few terminologies which comes under JS code execution :
+a. Global Execution Context 
+b. Execution Context
+c. Call Stack
+d. Memory Allocation
+e. Code Execution
+
+12. Variables (var, let and const are three variables and keywords both)
+--> Variables are containers. They store data values. for ex: var x = 5;
+    In programming, just like in mathematics, we use variables to hold values like x = 5. 5 is the value stores in variable x.
+    syntax : var(variable declaration) foo(variable name) = 11(value of the variable);
+
+    Variables can be created in JS using these: 
+    var
+    let
+    const
+
+13. Datatypes 
+--> There are two types of datatypes :
+(i). Primitive Datatypes = Number, string, Bookean, null, undefined, not defined.
+(ii). Non-Primitive datatypes = Object, Array, Function 
+
