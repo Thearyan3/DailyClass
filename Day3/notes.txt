@@ -10,3 +10,4 @@ Conclusion : Hoisting in JS
 
 15. Operators 
 (i). Arithmetic Operators - (%, -, +, *, /)
+(ii). Comparison Operators - (==, ===, !=, !==, <, >, <=, >=)
