@@ -1,0 +1,12 @@
+14. Hoisting in Js
+--> Hoisting is a default behaviour of javascript where all the variable and function declarations are moved to top.
+(i). In JS each and every variable decalred using either var, let or const gets some memory space. 
+(ii). If variable is declared using var then it will get memory space in global scope. So if you will try to access the variable in this case before initialising, it will return "undefined".
+(iii). If variable is declared using either let or const then it will get memory space in seperate scope and not in global scope. So if you will try to access the variable in this case before initalising it then it will return Reference error saying you cannot access the variable before initialization.
+
+Conclusion : Hoisting in JS
+(i). It is a concept which says that you should always declare and initialise all the variable in JS before using them.
+(ii). If we will not initiate the variables (means giving or assigning the value to a variable) before using it, then it will throw errors. So to avoid such errors, we should follow the concept of Hoisting in JS.
+
+15. Operators 
+(i). Arithmetic Operators - (%, -, +, *, /)
