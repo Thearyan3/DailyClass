@@ -18,4 +18,16 @@
 // let sliced = str.slice(3);
 // console.log(sliced);
 
-// 18. Array 
+// 18. Array - Methods of Array.
+// (i). Push() Method - The Push() method adds new elements to the end of an Array, and returns the new length. 
+// const arr = ["Jarvis", "The"];
+// arr.push("Developer");
+// console.log(arr);
+
+// (ii). slice() method - The slice() method selects a part of an array and returns the new array. 
+// const arr = ["Jarvis", "The", "Developer"];
+// console.log(arr.slice(1,2));
+
+// (iii). toString() method - The toString() method converts an array to a String, and returns the result. 
+// const arr = ["Jarvis", "The", "Developer"];
+// console.log(arr.toString());
