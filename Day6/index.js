@@ -61,8 +61,8 @@
 // console.log(newMessage);
 
 // (iv). Substring() Method - Substring does not support negative index for substring, second parameter is length.
-var name = "You will be an amazing developer";
-var newMessage = name.substring(7, 13);
-console.log(newMessage);
-var newMessage = name.substring(7);
-console.log(newMessage);
+// var name = "You will be an amazing developer";
+// var newMessage = name.substring(7, 13);
+// console.log(newMessage);
+// var newMessage = name.substring(7);
+// console.log(newMessage);
