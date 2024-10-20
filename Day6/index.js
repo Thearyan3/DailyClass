@@ -49,7 +49,7 @@
 // var res = str1.concat(str2);
 // console.log(res);
 
-// (iii). slice() Method 
+// (iii). slice() Method - The slice() method removes the parts of a string and returns the extracted parts to a new string. 
 // var name = "You will be an amazing developer";
 // var newMessage = name.slice(7, 13);
 // console.log(newMessage);
@@ -60,5 +60,9 @@
 // newMessage = name.slice(-7);
 // console.log(newMessage);
 
-// (iv).
-
+// (iv). Substring() Method - Substring does not support negative index for substring, second parameter is length.
+var name = "You will be an amazing developer";
+var newMessage = name.substring(7, 13);
+console.log(newMessage);
+var newMessage = name.substring(7);
+console.log(newMessage);
