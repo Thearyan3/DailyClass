@@ -31,3 +31,21 @@
 // (iii). toString() method - The toString() method converts an array to a String, and returns the result. 
 // const arr = ["Jarvis", "The", "Developer"];
 // console.log(arr.toString());
+
+// (iv). shift() method - The shift() method removes the first element of an Array, and returns that element. 
+// const arr = ["Jarivs", "The", "Developer"];
+// arr.shift();
+// console.log(arr);
+
+// (v). map() method - The map() method creates a new array with the results of calling a function for every array Element. 
+// const arr = [1, 4, 9, 16];
+// console.log(arr.map(x => x * 2));
+
+// (vi). pop() method - The pop() method removes the last element of an array, and returns that element.
+// const arr = ["Jarvis", "The", "Developer"];
+// let arr1 = arr.pop();
+// console.log(arr); 
+
+// (vii). filter() method - The filter() method creates an array filled with all array elements that pass a test (provided as a function).
+// const arr = ["Jarvis", "The", "Developer"];
+// console.log(arr.filter(word => word.length > 3));
