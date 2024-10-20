@@ -1,7 +1,3 @@
-// (viii). reverse() method - The reverse() method 
-// const
-
-
 // Question - You are provided an array of integer and you have to print the sum of array. 
 // let arr = [1, 2, 3, 4];
 // let sum = 0;
