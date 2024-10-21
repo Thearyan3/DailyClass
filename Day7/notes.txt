@@ -1,6 +1,6 @@
 18. Array
 --> An array is an ordered list of values that you refer to with a name and an index.
---> An array is an ordered lest of values stored in continuous memory location.
+--> An array is an ordered list of values stored in continuous memory location.
 --> There are three ways to create an array, which are :
 let Arr = new Array(element0, element1, element2, ....., elementN);
 let Arr = Array(element0, element1, element2, ....., elementN);

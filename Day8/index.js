@@ -37,6 +37,6 @@
 // console.log(MyArr.join("_"));
 
 // (xiii). indexOf() and lastIndexOf() method 
-let myArr = [1, 2, 3, 4, 5, 6, 3];
-console.log(myArr.indexOf(3));
-console.log(myArr.lastIndexOf(3));
+// let myArr = [1, 2, 3, 4, 5, 6, 3];
+// console.log(myArr.indexOf(3));
+// console.log(myArr.lastIndexOf(3));

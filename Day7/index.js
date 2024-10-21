@@ -1,4 +1,4 @@
-// (v). Replace() method - The Jacascript replace() changes the defined value to an another value .
+// (v). Replace() method - The Javascript replace() changes the defined value to an another value .
 // var name = "You will be an amazing developer";
 // console.log(name.replace(' ', '_'));
 // console.log(name.replaceAll(' ', '_'));
