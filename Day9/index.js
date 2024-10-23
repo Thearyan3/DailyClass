@@ -54,10 +54,10 @@
 let array = [0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0];
 let Zero = 0;
 let One = 0;
-for(a of array){
-    if(array[a] === 0){
+for (a of array) {
+    if (array[a] === 0) {
         Zero++;
-    }else{
+    } else {
         One++;
     }
 }
