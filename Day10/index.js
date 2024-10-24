@@ -3,14 +3,14 @@
 // }
 
 const c = () => {
-    console.log("hello Aryan", c);
+    console.log("hello Aryan");
 }
 c();
 
 const b = function a(){
     console.log("a");
 }
-b();
+a();
 
 function showMessage() {
     alert("Hello World");
