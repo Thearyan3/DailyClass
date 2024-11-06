@@ -1,0 +1,13 @@
+What is DOM?
+--> The Document Object MOdel (DOM) ts the data representation of the objects that comprise the structure and content of a document on the web. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as objects. That way, 
+
+DOM Functions 
+--> Finding the exisitng HTML elements from DOM :
+
+Find an element by its id attribute:
+document.getElementById(id)
+
+Find an element by its tag name : (div, span)
+decoment.getElemntsBytagname(tag)
+
+Find an element by its class name : ()
