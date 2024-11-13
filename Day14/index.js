@@ -61,4 +61,4 @@ console.log(set1.delete("apple"));
 console.log(set1);
 
 // entries method is Set() - returns the key value pair of the object where value is used as a key.
-console.log(set1.entries());
+console.log(set1.enteries("apple"));
