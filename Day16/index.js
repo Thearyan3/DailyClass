@@ -11,5 +11,5 @@ function showTime(){
     var s = date.getSeconds();
     var time = h + ':' + m + ':' + s + '';
     document.getElementById("MyClock").innerText = time;
-    setTimeout(showTime, 100);
+    setTimeout(showTime, 1000);
 }
