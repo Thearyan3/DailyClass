@@ -32,11 +32,22 @@
 // };
 // count();
 
-const book = {
-    title : "Javascript Topics",
-    author : "Aryan", 
-    year : 2024,
-};
-console.log(Object.keys(book));
-console.log(Object.entries(book));
-console.log(Object.values(book));
+// const book = {
+//     title : "Javascript Topics",
+//     author : "Aryan", 
+//     year : 2024,
+// };
+// console.log(Object.keys(book));
+// console.log(Object.entries(book));
+// console.log(Object.values(book));
+
+const community = {
+    name : "Found&Learn" = {
+        Members : 7,
+        technologies : 7,
+    },
+    Duration : 10,
+    Calls : "Group Members",
+    };
+
+    console.log(community);
