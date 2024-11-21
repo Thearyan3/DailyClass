@@ -7,32 +7,27 @@
 // const rectangle = outer(5);
 // rectangle(8);
 
-function first(){
-    setTimeout(first, 1000);
-    console.log("1");
-    return function (){
-        setTimeout(2000)
-        console.log("2");
-        return function (){
-            setTimeout(3000)
-            console.log("3");
-            return function (){
-                setTimeout(4000)
-                console.log("4");
-                return function (){
-                    setTimeout(5000)
-                    console.log("5");
-                    return function (){
-                        setTimeout(6000)
-                        console.log("6");
-                        return function (){
-                            setTimeout(7000)
-                            console.log("7");
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-first();
+const count = () => {
+    setTimeout(() => {
+        console.log("1");
+        setTimeout(() => {
+            console.log("2");
+            setTimeout(() => {
+                console.log("3");
+                setTimeout(() => {
+                    console.log("4");
+                    setTimeout(() => {
+                        console.log("5");
+                        setTimeout(() => {
+                            console.log("6");
+                            setTimeout(() => {
+                                console.log("7")
+                            }, 7000);
+                        }, 6000);
+                    }, 5000);
+                }, 4000);
+            }, 3000);
+        }, 2000);
+    }, 1000);
+};
+count();
