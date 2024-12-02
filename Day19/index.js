@@ -38,3 +38,28 @@
 // const myAccount = new BankAccount("Aryan", 20000);
 // myAccount.deposit(200);
 // console.log(myAccount);
+
+
+//Inheritance = It allows one class to inherit properties and methods from the another class.
+
+class Animal{
+    constructor(name){
+        this.name = name;
+    }
+    speak(){
+        console.log(`${name} makes a noise`);
+    }
+}
+
+class Dog extends Animal{
+    constructor(name, breed){
+        super(name)
+        this.breed;
+    }
+    speak(){
+        console.log(`${this.name} barks`)
+    }
+}
+
+const dog = new Dog('Labrador', 'Pitbull');
+dog.speak();
