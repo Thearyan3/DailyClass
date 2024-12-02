@@ -72,6 +72,20 @@ myPromise
 })
 .catch(function(error){
     console.log(error);
-})
+});
 
 
+
+//Async and Await
+// Await = The await is a keyword pause the code until the promise is either fullfilled or rejected.
+
+async function deliverData(params){
+    try{
+        let result = await myPromise;
+        console.log(result);
+    }
+    catch(error){
+        console.log(error);
+    }
+}
+deliverData();
