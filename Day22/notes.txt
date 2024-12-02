@@ -1,0 +1,10 @@
+API 
+(1). Frontend APIs - #DOM API    #Event API   #Fetch API
+                     #Storage API    #Geolocation APIs    #Canvas API     #WebSocket API
+
+(2). Backend APIs - #File System API     #HTTP module     #Path module 
+                    #Process API     #Buffer API      #Event Enitter API
+
+(3). Third Party APIs - #Rest API    #GraphQL API
+
+(4). Data APIs - #Json API     #Indexed DB API
