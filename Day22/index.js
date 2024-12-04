@@ -3,6 +3,7 @@ function validateForm(){
     document.getElementById('nameError').innerText = "";
     document.getElementById('emailError').innerText = "";
     document.getElementById('ageError').innerText = "";
+    document.getElementById('ageError1').innerText = "";
 
 
     const name = document.getElementById('name').value.trim();
